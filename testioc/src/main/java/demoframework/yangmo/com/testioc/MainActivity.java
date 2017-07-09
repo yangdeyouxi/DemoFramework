@@ -26,7 +26,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 //        ViewInjectUtils.inject(this);
 //        helloText.setOnClickListener(this);
 
-
+            //这里因为testioc模块是被依赖的，用来测试使用反射能否获取到依赖它的模块的类，测试证明是可以获取到的
             try
             {
                 Class playgame = Class.forName("demoframework.yangmo.com.demoframework.PlayGame");//获取Activity的类
