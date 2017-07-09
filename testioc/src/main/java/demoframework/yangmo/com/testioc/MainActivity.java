@@ -13,7 +13,7 @@ import demoframework.yangmo.com.testioc.ioc.ViewInjectUtils;
 import demoframework.yangmo.com.testioc.ioc.annotation.ContentView;
 import demoframework.yangmo.com.testioc.ioc.annotation.ViewInject;
 
-//@ContentView(value = R.layout.activity_main)
+//@ContentView(value = R.layout.activity_main)这里的R.layout.activity_main在这个模块被作为library后就会无法传入，这是个坑
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
 //    @ViewInject(value = R.id.helloText)
