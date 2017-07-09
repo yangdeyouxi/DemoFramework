@@ -1,11 +1,12 @@
-apply plugin: 'com.android.application'
+apply plugin: 'com.android.library'
+
 
 android {
     compileSdkVersion 26
     buildToolsVersion "26.0.0"
 
     defaultConfig {
-        applicationId "demoframework.yangmo.com.testioc"
+//        applicationId "demoframework.yangmo.com.testioc"
         minSdkVersion 15
         targetSdkVersion 26
         versionCode 1

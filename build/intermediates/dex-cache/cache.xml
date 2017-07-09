@@ -30,6 +30,15 @@
     </item>
     <item
         is-multidex="true"
+        jar="/Users/mac/Documents/GitHub/DemoFramework/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="/Users/mac/Documents/GitHub/DemoFramework/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_1e815270b730ea0960897bd40659f6057c48bcb3/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="/Users/mac/Library/Android/sdk/extras/m2repository/com/android/support/constraint/constraint-layout-solver/1.0.2/constraint-layout-solver-1.0.2.jar"
         jumboMode="true"
         optimize="true"
@@ -90,6 +99,15 @@
         revision="26.0.0"
         sha1="9935891f23923f39d002087085d9696568a9f657">
         <dex dex="/Users/mac/Documents/GitHub/DemoFramework/testioc/build/intermediates/transforms/dex/debug/folders/1000/10/classes_89be648bacf7e445b467c7b27e766c6ffab4c933/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mac/Documents/GitHub/DemoFramework/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="44366c657b2f731622134cf9f697011716ed78e3">
+        <dex dex="/Users/mac/Documents/GitHub/DemoFramework/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_5bc00ae2400efa37d2cf39548a7829e7438bb11b/classes.dex" />
     </item>
     <item
         is-multidex="true"
