@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/Users/mac/Documents/GitHub/DemoFramework/testioc/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="05e075e8e6932f314580e954b7943a4373401337">
+        <dex dex="/Users/mac/Documents/GitHub/DemoFramework/testioc/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_e51c5d5b8b049d7ed2511b489939d8af229f132f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mac/.android/build-cache/83839d7e892eb3b1a90dd7b434188c4f6ec6712e/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="88246166d5afb106f532f6e6deae683c66b42c89">
+        <dex dex="/Users/mac/Documents/GitHub/DemoFramework/testioc/build/intermediates/transforms/dex/debug/folders/1000/10/classes_ec9957b072664cdc1c902a7556593a6adab46e1b/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mac/.android/build-cache/5166445bad909eb3952930b04a4f641baca260f2/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="fcd01fd11233459f546c437ec927e9b61bf7caf1">
+        <dex dex="/Users/mac/Documents/GitHub/DemoFramework/testioc/build/intermediates/transforms/dex/debug/folders/1000/10/classes_4c0efdd79dfb1647f6655c710982411c6c420930/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mac/Library/Android/sdk/extras/m2repository/com/android/support/constraint/constraint-layout-solver/1.0.2/constraint-layout-solver-1.0.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="b9cd8fc6bd15cb915735d34535db30ece0c44603">
+        <dex dex="/Users/mac/Documents/GitHub/DemoFramework/testioc/build/intermediates/transforms/dex/debug/folders/1000/10/constraint-layout-solver-1.0.2_e83baf2de4ea4bc9552aa863aa942db3807947bb/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mac/.android/build-cache/d2e5e2f139632f6b9c67fd89240cbbf15645ce8e/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/mac/Documents/GitHub/DemoFramework/testioc/build/intermediates/transforms/dex/debug/folders/1000/10/classes_7d1e446533130e4780e0f42c658a402abca3ce98/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mac/.android/build-cache/8f1fd844676cef0d8605d01a61407d15f4f166c1/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="18d31838aa4fcc768a8a0516e22cc13b94655d89">
+        <dex dex="/Users/mac/Documents/GitHub/DemoFramework/testioc/build/intermediates/transforms/dex/debug/folders/1000/10/classes_cc9515028cb30cbf0503861c70ca2efb92603911/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mac/.android/build-cache/5dc7126c731edc838457601e98cf48f7ee56592f/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="47471eb19df288158b00b8d9cfa41bce7373f5cc">
+        <dex dex="/Users/mac/Documents/GitHub/DemoFramework/testioc/build/intermediates/transforms/dex/debug/folders/1000/10/classes_179b329f8a4d17bbe033b80f2563f43141240752/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mac/.android/build-cache/7f6976ad028a9ae8580d4f65644c55790b0c0ffd/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="8df0e365e40beb151bc42dee20817721a6cab7b0">
+        <dex dex="/Users/mac/Documents/GitHub/DemoFramework/testioc/build/intermediates/transforms/dex/debug/folders/1000/10/classes_6c6145f40c871b9d6c7cd82a41ee3bbc7431a851/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mac/.android/build-cache/8aaa7717609aceadafc2528a05cabc25826a3673/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="44ee06abb66da30f5855e6bf54574e64cdcd982a">
+        <dex dex="/Users/mac/Documents/GitHub/DemoFramework/testioc/build/intermediates/transforms/dex/debug/folders/1000/10/classes_c2fa5b6bc27c3d246768c4d76435bffe2dfb85ba/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mac/.android/build-cache/567756f270d42ccb2d205d88cf157195179a08a4/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="9935891f23923f39d002087085d9696568a9f657">
+        <dex dex="/Users/mac/Documents/GitHub/DemoFramework/testioc/build/intermediates/transforms/dex/debug/folders/1000/10/classes_89be648bacf7e445b467c7b27e766c6ffab4c933/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mac/.android/build-cache/e77ee5c2c8680824224a35a2574a03951ce9c677/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="2e92aa0163544a804a0b34f169ca61801770839a">
+        <dex dex="/Users/mac/Documents/GitHub/DemoFramework/testioc/build/intermediates/transforms/dex/debug/folders/1000/10/classes_dab3aa6bf45e932b4d42b8859111ea15734907fe/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mac/.android/build-cache/62a423f89a165145905ee4bd30c0544e71f927f7/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="952944218ecedea1554a513dec0c14d570642843">
+        <dex dex="/Users/mac/Documents/GitHub/DemoFramework/testioc/build/intermediates/transforms/dex/debug/folders/1000/10/classes_07452402f56ca474cb5ea948e707d92cb8067fe3/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mac/Documents/GitHub/DemoFramework/testioc/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="/Users/mac/Documents/GitHub/DemoFramework/testioc/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_0b39cde33e214046dc6da6273c204660fdd2f3bf/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mac/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/26.0.0-alpha1/support-annotations-26.0.0-alpha1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="023ee503b631f69511e335a061ea008f8da60f40">
+        <dex dex="/Users/mac/Documents/GitHub/DemoFramework/testioc/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-26.0.0-alpha1_36aea58734aa23c0a599a9d52f17961edc02af4f/classes.dex" />
+    </item>
+
+</items>

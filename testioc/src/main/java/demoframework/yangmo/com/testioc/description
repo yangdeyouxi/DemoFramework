@@ -1,0 +1,73 @@
+Java注解（Annotation），也叫元数据,JDK1.5及以后版本引入的一个特性，与类、接口、枚举是在同一个层次。它可以声明在包、类、字段、方法、局部变量、方法参数等的前面，用来对这些元素进行说明，注释
+
+元注解的作用就是负责注解其他注解。Java5.0定义了4个标准的meta-annotation类型，它们被用来提供对其它 annotation类型作说明。Java5.0定义的元注解：
+　　　　1.@Target,
+　　　　2.@Retention,
+　　　　3.@Documented,
+　　　　4.@Inherited
+　　这些类型和它们所支持的类在java.lang.annotation包中可以找到
+
+========================================================================================================================
+========================================================================================================================
+1、@Target：
+作用：用于描述注解的使用范围（即：被描述的注解可以用在什么地方）
+
+取值(ElementType)有：
+　　　　1.CONSTRUCTOR:用于描述构造器
+　　　　2.FIELD:字段、枚举的常量
+　　　　3.LOCAL_VARIABLE:用于描述局部变量
+　　　　4.METHOD:用于描述方法
+　　　　5.PACKAGE:用于描述包
+　　　　6.PARAMETER:用于描述方法参数
+　　　　7.TYPE:接口、类、枚举、注解
+       8.ANNOTATION_TYPE:注解
+
+例子：
+@Target(ElementType.TYPE)
+public @interface Table {
+    /**
+     * 数据表名称注解，默认值为类名称
+     * @return
+     */
+    public String tableName() default "className";
+}
+@Target(ElementType.FIELD)
+public @interface NoDBColumn {
+
+}
+
+========================================================================================================================
+========================================================================================================================
+2、@Retention：
+@Retention定义了该Annotation被保留的时间长短：某些Annotation仅出现在源代码中，而被编译器丢弃；而另一些却被编译在class文件中；编译在class文件中的Annotation可能会被虚拟机忽略，
+而另一些在class被装载时将被读取（请注意并不影响class的执行，因为Annotation与class在使用上是被分离的）。使用这个meta-Annotation可以对 Annotation的“生命周期”限制
+
+取值（RetentionPoicy）有：
+　　　　1.SOURCE:在源文件中有效（即源文件保留）
+　　　　2.CLASS:在class文件中有效（即class保留）
+　　　　3.RUNTIME:在运行时有效（即运行时保留）
+
+例子：
+@Target(ElementType.FIELD)
+@Retention(RetentionPolicy.RUNTIME)
+public @interface Column {
+    public String name() default "fieldName";
+    public String setFuncName() default "setField";
+    public String getFuncName() default "getField";
+    public boolean defaultDBValue() default false;
+}
+
+========================================================================================================================
+========================================================================================================================
+3、@Documented
+
+@Documented用于描述其它类型的annotation应该被作为被标注的程序成员的公共API，因此可以被例如javadoc此类的工具文档化。Documented是一个标记注解，没有成员。
+
+理解解释：当被修饰的方法被使用javadoc生成方法说明文档时，会生成注释以及链接
+
+
+========================================================================================================================
+========================================================================================================================
+4、@Inherited
+
+说明子类可以继承父类中的该注解
