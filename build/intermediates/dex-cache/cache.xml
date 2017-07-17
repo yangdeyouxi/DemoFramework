@@ -106,7 +106,7 @@
         jumboMode="true"
         optimize="true"
         revision="26.0.0"
-        sha1="44366c657b2f731622134cf9f697011716ed78e3">
+        sha1="84a51063e8f5ce0a8d239118f47cc4bd31900534">
         <dex dex="/Users/mac/Documents/GitHub/DemoFramework/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_5bc00ae2400efa37d2cf39548a7829e7438bb11b/classes.dex" />
     </item>
     <item

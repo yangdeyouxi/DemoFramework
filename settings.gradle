@@ -1,1 +1,1 @@
-include ':app', ':testioc'
+include ':app', ':testioc', ':injectionlibrary'

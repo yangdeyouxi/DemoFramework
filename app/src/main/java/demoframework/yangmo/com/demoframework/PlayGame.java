@@ -10,9 +10,9 @@ public class PlayGame {
 
     }
 
-    public int saveLevel(int level){
+    public void saveLevel(int level){
         level++;
-        return level;
+//        return level;
     }
 
 }

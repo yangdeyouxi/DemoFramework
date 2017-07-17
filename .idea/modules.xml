@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/DemoFramework.iml" filepath="$PROJECT_DIR$/DemoFramework.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/injectionlibrary/injectionlibrary.iml" filepath="$PROJECT_DIR$/injectionlibrary/injectionlibrary.iml" />
       <module fileurl="file://$PROJECT_DIR$/testioc/testioc.iml" filepath="$PROJECT_DIR$/testioc/testioc.iml" />
     </modules>
   </component>

@@ -8,6 +8,7 @@ import android.view.View;
 import android.widget.TextView;
 
 import java.lang.reflect.Method;
+import java.lang.reflect.Type;
 
 import demoframework.yangmo.com.testioc.ioc.ViewInjectUtils;
 import demoframework.yangmo.com.testioc.ioc.annotation.ContentView;
@@ -22,8 +23,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
-//        ViewInjectUtils.inject(this);
+//        setContentView(R.layout.activity_main);
+        ViewInjectUtils.inject(this);
 //        helloText.setOnClickListener(this);
 
             //这里因为testioc模块是被依赖的，用来测试使用反射能否获取到依赖它的模块的类，测试证明是可以获取到的
@@ -34,8 +35,13 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                         int.class);//通过反射获取方法
                 Object playgameOne = playgame.newInstance();
                 method.setAccessible(true);//setAccessible(true)可以访问private域,并且可以提升反射速度
+                Type type = method.getGenericReturnType();
                 Object result = method.invoke(playgameOne, 5);//调用activity对象的METHOD_SET_CONTENTVIEW方法，传入的参数为contentViewLayoutId
-                Log.d("demo","result:" + result);
+                String returnData = type.toString();
+                if(returnData.equals("void")){
+                    //表示这个方法没有返回值
+                }
+                Log.d("demo","result:" + returnData);
             } catch (Exception e)
             {
                 e.printStackTrace();
